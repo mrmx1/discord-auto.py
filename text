@@ -1,0 +1,12 @@
+import requests
+
+payload = {
+    'content': "text!"
+}
+
+header = {
+    'authorization': 'token here'
+}
+
+r = requests.post('channel here')
+
